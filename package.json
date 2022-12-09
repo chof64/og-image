@@ -1,0 +1,22 @@
+{
+  "name": "og-image",
+  "version": "1.0.0",
+  "description": "An API that can generate OG images",
+  "main": "index.js",
+  "repository": "https://github.com/driaug/og-image",
+  "author": "Dries Augustyns",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.4",
+    "@types/puppeteer-core": "^5.4.0",
+    "typescript": "^4.4.3"
+  }
+}
